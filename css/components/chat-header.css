@@ -1,0 +1,32 @@
+.chat-header {
+  padding: 92px 24px 0px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chat-header__column {
+  width: 33%;
+  font-size: 22px;
+  font-weight: var(--font-bold);
+}
+
+.chat-header__column:first-child {
+  margin-right: auto;
+}
+
+.chat-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.chat-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.chat-header__column:last-child svg:first-child {
+  margin-right: 16px;
+}

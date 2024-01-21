@@ -1,0 +1,9 @@
+:root {
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 800;
+  --black: #1f1f1f;
+  --grey: #999;
+  --yellow: #fee500;
+  --main-border: 1px solid #eee;
+}

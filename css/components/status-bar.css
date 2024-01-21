@@ -1,0 +1,43 @@
+.status-bar {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 36px 0px 36px;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child {
+  display: flex;
+  padding-left: 24px;
+  font-size: 18px;
+}
+
+.status-bar__column:nth-child(2) {
+  width: 120px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-bar__column span {
+  font-weight: var(--font-bold);
+}
+
+.status-bar__column img {
+  width: 88px;
+}

@@ -1,0 +1,72 @@
+.open-chattings__section,
+.open-chattings__tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-chattings__section {
+  margin-bottom: 20px;
+}
+
+.open-chattings__section form {
+  position: relative;
+  width: 16%;
+  margin-right: 8px;
+}
+
+.open-chattings__section form svg {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+
+.open-chattings__section form input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 100%;
+  caret-color: transparent;
+}
+
+.open-chattings__section form input::placeholder {
+  text-align: end;
+  font-size: 14px;
+}
+
+.open-chattings__tags {
+  width: 84%;
+}
+
+.open-chattings__tag {
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.section__hr {
+  width: 100%;
+  height: 12px;
+  background-color: #f7f7f7;
+}
+
+.open-chattings__under-section__title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: var(--font-semi-bold);
+}
+
+.open-chattings__btn {
+  font-size: 14px;
+  background-color: #f5f5f5;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: var(--font-semi-bold);
+}
+
+.open-chattings__tag--selected {
+  background-color: black;
+  color: white;
+}

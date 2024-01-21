@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>카카오톡 | Kakaotalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="status-bar">
+      <div class="status-bar__column">
+        <span>5:30</span>
+      </div>
+      <div class="status-bar__column"></div>
+      <div class="status-bar__column">
+        <img src="img/status-bar__info.png" alt="" />
+      </div>
+    </section>
+
+    <main class="main-header">
+      <div class="main-header__column">
+        <h1 class="main-header__title">오픈채팅</h1>
+      </div>
+      <div class="main-header__column">
+        <span class="main-header__icon"
+          ><a href="#"><i class="fa-regular fa-comments fa-xl"></i></a
+        ></span>
+        <span class="main-header__icon"><i class="fa-regular fa-comment fa-xl"></i> </span>
+        <span class="main-header__icon"
+          ><a href="#"><i class="fa-solid fa-gear fa-xl"></i></a
+        ></span>
+      </div>
+    </main>
+
+    <section class="main-section screen-chattings">
+      <div class="open-chattings__upper-section">
+        <div class="open-chattings__section">
+          <form action="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" class="open-chattings__search" placeholder="검색" />
+          </form>
+          <ul class="open-chattings__tags">
+            <a href="#"><li class="open-chattings__tag open-chattings__tag--selected">💬 내 채팅방</li></a>
+            <a href="#"><li class="open-chattings__tag">📍 대구</li></a>
+            <a href="#"><li class="open-chattings__tag">🔥 지금 뜨는</li></a>
+            <a href="#"><li class="open-chattings__tag">🍔 맛집 투어</li></a>
+          </ul>
+        </div>
+
+        <a href="#"
+          ><div class="user-component">
+            <div class="user-component__column">
+              <img src="img/developer-community.png" alt="" class="user-component__img user-component__img--sm" />
+              <div class="user-component__texts">
+                <h3 class="user-component__title">
+                  <span>대구/경산 IT 개발자 커뮤니티</span>
+                  <span class="user-component__title__member-count">131</span>
+                </h3>
+                <p class="user-component__subtitle">이번주 모임은 어디서 할까요?</p>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">오후 5:30</span>
+              <span class="user-component__alert">23</span>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img src="img/pattern-class.png" alt="" class="user-component__img user-component__img--sm" />
+              <div class="user-component__texts">
+                <h3 class="user-component__title">
+                  <span>영어 회화반</span>
+                </h3>
+                <p class="user-component__subtitle">다음 주 수업은 없습니다.</p>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">오후 4:23</span>
+              <span class="user-component__alert">1</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="section__hr"></div>
+
+    <div class="main-section--under">
+      <div class="open-chattings__under-section">
+        <h3 class="open-chattings__under-section__title">프로그래밍을 즐기는 사람들</h3>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://avatars.githubusercontent.com/u/29245056?s=200&v=4" alt="" class="user-component__img user-component__img--sm" />
+            <div class="user-component__texts">
+              <h3 class="user-component__title">
+                <span>노마드 코더 웹 기초 6기</span>
+              </h3>
+              <p class="user-component__subtitle">#노마드코더#웹기초#HTML#CSS#JS#챌린지</p>
+              <span class="user-component__count">65명 참여중</span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <a class="open-chattings__btn" href="https://nomadcoders.co/challenges" target="_blank">참여</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav-bar">
+      <div class="nav-bar__icons">
+        <a href="friends.html" class="nav-bar__icon"><i class="fa-solid fa-user fa-lg"></i><span>친구</span></a>
+        <a href="chattings.html" class="nav-bar__icon"><i class="fa-solid fa-comment fa-lg"></i><span>채팅</span></a>
+        <a href="openchattings.html" class="nav-bar__icon nav-bar__icon--now"><i class="fa-solid fa-comments fa-lg"></i><span>오픈채팅</span></a>
+        <a href="more.html" class="nav-bar__icon"><i class="fa-solid fa-ellipsis fa-lg"></i><span>더보기</span></a>
+      </div>
+      <div class="nav-bar__underbar"></div>
+    </nav>
+
+    <div class="if-not-mobile">화면을 550px 이하로 맞춰주세요!</div>
+
+    <script src="https://kit.fontawesome.com/59f804b962.js" crossorigin="anonymous"></script>
+  </body>
+</html>

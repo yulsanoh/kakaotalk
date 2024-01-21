@@ -1,0 +1,27 @@
+.main-header {
+  z-index: 1;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 20px 10px 20px;
+}
+
+.main-header__title {
+  font-size: 20px;
+  font-weight: var(--font-semi-bold);
+}
+
+.main-header__column:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__column:last-child .main-header__icon {
+  padding: 0 12px;
+}
+
+.main-header__column:last-child .main-header__icon:last-child {
+  padding-right: 0;
+}

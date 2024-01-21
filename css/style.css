@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/main-header.css";
+@import "components/main-section.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/chat-header.css";
+@import "components/animation.css";
+
+/* screen */
+@import "screens/chatting.css";
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/openchattings.css";
+@import "screens/more.css";
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  padding-bottom: 120px;
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+.splash-screen {
+  z-index: 50;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  animation: splash 0.3s linear forwards;
+  animation-delay: 1s;
+}
+
+.if-not-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 550px) {
+  .if-not-mobile {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--yellow);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: var(--font-bold);
+  }
+}
