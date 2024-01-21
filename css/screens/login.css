@@ -40,6 +40,7 @@
 }
 
 .login-section__form input[type="submit"] {
+  font-weight: var(--font-semi-bold);
   border-radius: 8px;
   padding: 20px 0;
   background-color: var(--yellow);
